@@ -88,4 +88,4 @@ switch (hari) {
         console.log("Minggu");
     default:
         console.log("Hari tidak valid");
-}
+};
