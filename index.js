@@ -136,3 +136,45 @@ while (i < bilangan.length) {
     i++;
 }
 
+// Pembuatan fungsi
+// Menggunakan fungsi untuk melakukan tugas tertentu (pertambahan) dan sapaan
+function tambahkan(angka1, angka2) {
+    return angka1 + angka2;
+}
+
+function kurangkan(angka1, angka2) {
+    return angka1 - angka2;
+}
+
+function kalikan(angka1, angka2) {
+    return angka1 * angka2;
+}
+
+function bagi(angka1, angka2) {
+    if (angka2 === 0) {
+        return 'Tidak dapat dibagi oleh nol';
+    }
+    return angka1 / angka2;
+}
+
+
+const hasilTambah = tambahkan(10, 5);
+console.log(`Hasil pertambahan: ${hasilTambah}`);
+
+const hasilKurang = kurangkan(5, 2);
+console.log(`Hasil pengurangan: ${hasilKurang}`);
+
+const hasilKali = kalikan(5, 5);
+console.log(`Hasil perkalian: ${hasilKali}`);
+
+const hasilBagi = bagi(20, 2);
+console.log(`Hasil pembagian: ${hasilBagi}`);
+
+const hasilBagiganjil = bagi(20, 3);
+console.log(`Hasil pembagian: ${hasilBagiganjil}`);
+
+function sapa(nama){
+    console.log(`Halo, ${nama}!`);
+}
+
+sapa('Firman');
